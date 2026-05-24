@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+.cargo/
+.zed/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.claude/

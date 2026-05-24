@@ -1,0 +1,32 @@
+{
+  "name": "laser",
+  "description": "Claude Code skills for the LaserData Cloud CLI.",
+  "homepage": "https://github.com/laserdata/laser-cli-claude",
+  "owner": {
+    "name": "LaserData",
+    "url": "https://laserdata.com"
+  },
+  "plugins": [
+    {
+      "name": "cli",
+      "description": "Slash commands that drive `laser` from natural language: onboard, deploy, troubleshoot, snapshot, backup, access, credentials, context, config, channel, audit, iam, billing, debug.",
+      "source": ".",
+      "skills": [
+        "skills/laser-onboard.md",
+        "skills/laser-deploy.md",
+        "skills/laser-troubleshoot.md",
+        "skills/laser-snapshot.md",
+        "skills/laser-backup.md",
+        "skills/laser-access.md",
+        "skills/laser-credentials.md",
+        "skills/laser-context.md",
+        "skills/laser-config.md",
+        "skills/laser-channel.md",
+        "skills/laser-audit.md",
+        "skills/laser-iam.md",
+        "skills/laser-billing.md",
+        "skills/laser-debug.md"
+      ]
+    }
+  ]
+}
