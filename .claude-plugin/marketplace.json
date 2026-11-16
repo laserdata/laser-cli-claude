@@ -9,9 +9,10 @@
   "plugins": [
     {
       "name": "cli",
-      "description": "Slash commands that drive `laser` from natural language, following the console: onboard, context, workspace, deploy, troubleshoot, snapshot, backup, config, connectors, access, credentials, cluster, streams, agents, query, filters, iam, billing, channel, audit, debug.",
+      "description": "Slash commands that drive `laser` from natural language, following the console: quickstart, onboard, context, workspace, deploy, troubleshoot, snapshot, backup, config, connectors, access, credentials, cluster, streams, agents, query, filters, iam, billing, channel, audit, debug.",
       "source": ".",
       "skills": [
+        "./skills/laser-quickstart",
         "./skills/laser-onboard",
         "./skills/laser-context",
         "./skills/laser-workspace",

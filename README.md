@@ -8,6 +8,7 @@ The skills follow the console: the organization, its workspaces, their deploymen
 
 Getting started:
 
+- `/laser-quickstart`: one flow from nothing to a first message read back on LaserData Cloud: install, sign in, a deployment with the price first, access for this machine, connection details, a stream and topic, send and read, then clean up.
 - `/laser-onboard`: install the binary, sign in with an API key, pick the workspace and deployment scope, sanity-check.
 - `/laser-context`: named contexts with their key, organization, workspace and deployment scope, and how the scope of a command is resolved.
 - `/laser-workspace`: the workspace overview, its activity log, `find`, and workspace and environment settings.
